@@ -1,5 +1,5 @@
 TAU = {};
-TAU.Ticker = (function() {
+TAU.Countdown = (function() {
   var s, t,
     ce = [],
     ct = {},
