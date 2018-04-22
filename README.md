@@ -3,21 +3,21 @@
 ## API
 
 ## Countdown
+### Methods
 <dl> 
   <dt>getSeconds()</dt>
-  <dd></dd>
+    <dd></dd>
   <dt>setCallback(callback)</dt>
-  <dd>set a callback and invoke it every second on start.</dd>
-	<dt>setCallbackAt(callback, second)</dt>
-  <dd>set a callback and invoke it at specified second on start.</dd>
-	<dt>setSeconds(seconds)</dt>
-  <dd></dd>
-	<dt>start()</dt>
-  <dd>starts the countdown.</dd>
-	<dt>flush()</dt>
-  <dd>reset the countdown and remove callbacks.</dd>
+    <dd>set a callback and invoke it every second on start.</dd>
+  <dt>setCallbackAt(callback, second)</dt>
+    <dd>set a callback and invoke it at specified second on start.</dd>
+   <dt>setSeconds(seconds)</dt>
+    <dd></dd>
+  <dt>start()</dt>
+    <dd>starts the countdown.</dd>
+  <dt>flush()</dt>
+    <dd>reset the countdown and remove callbacks.</dd>
 </dl>
-
 
 ### Usage
 ```javascript
@@ -28,3 +28,37 @@ var countdown = TAU.Countdown;
   countdown.start();
   countdown.flush();
 ```
+
+
+## VirtualContainer
+### Properties
+<dl> 
+  <dt>x</dt>
+  <dd></dd>
+  <dt>y</dt>
+  <dd></dd>
+   <dt>width</dt>
+  <dd></dd>
+   <dt>height</dt>
+  <dd></dd>
+   <dt>columns</dt>
+  <dd>default: 0</dd>
+</dl>
+
+### Methods
+<dl> 
+  <dt>alignIn(container)</dt>
+    <dd></dd>
+  <dt>alignContent()</dt>
+    <dd></dd>
+  <dt>alignContentVertically()</dt>
+    <dd></dd>
+  <dt>alignContentHorizontally()</dt>
+    <dd></dd>
+  <dt>alignContent()</dt>
+    <dd></dd>
+  <dt>enableVisualDebug()</dt>
+    <dd></dd>
+  <dt>disableVisualDebug()</dt>
+    <dd></dd>
+</dl>
