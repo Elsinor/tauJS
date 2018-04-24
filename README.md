@@ -47,17 +47,19 @@ var countdown = TAU.Countdown;
 
 ### Methods
 <dl> 
-  <dt>alignIn(container)</dt>
+  <dt>constructor()</dt>
     <dd></dd>
-  <dt>alignContent()</dt>
+  <dt>setWidth(width)</dt>
     <dd></dd>
-  <dt>alignContentVertically()</dt>
+  <dt>setHeight(height)</dt>
     <dd></dd>
-  <dt>alignContentHorizontally()</dt>
+  <dt>addChildInRow(child, row)</dt>
     <dd></dd>
-  <dt>alignContent()</dt>
+  <dt>hAlignRow(row)</dt>
     <dd></dd>
-  <dt>enableVisualDebug()</dt>
+  <dt>vAlignRows()</dt>
+    <dd></dd>
+  <dt>enableVisualDebug(color)</dt>
     <dd></dd>
   <dt>disableVisualDebug()</dt>
     <dd></dd>
