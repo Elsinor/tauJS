@@ -62,3 +62,18 @@ var countdown = TAU.Countdown;
   <dt>disableVisualDebug()</dt>
     <dd></dd>
 </dl>
+
+## Button
+### Methods
+<dl> 
+  <dt>setInteractivity(v)</dt>
+    <dd>v: boolean</dd>
+  <dt>enable()</dt>
+    <dd></dd>
+  <dt>disable</dt>
+    <dd></dd>
+   <dt>setTexture(state, texture)</dt>
+    <dd></dd>
+  <dt>on(event, callback)</dt>
+    <dd>events: pointerdown, pointerup, pointerupoutside, pointerover, pointerout</dd>
+</dl>
