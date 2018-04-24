@@ -66,6 +66,8 @@ var countdown = TAU.Countdown;
 ## Button
 ### Methods
 <dl> 
+  <dt>constructor(default_texture)</dt>
+    <dd></dd>
   <dt>setInteractivity(v)</dt>
     <dd>v: boolean</dd>
   <dt>enable()</dt>
@@ -77,3 +79,16 @@ var countdown = TAU.Countdown;
   <dt>on(event, callback)</dt>
     <dd>events: pointerdown, pointerup, pointerupoutside, pointerover, pointerout</dd>
 </dl>
+
+### Usage
+```javascript
+var b = new TAU.Button(texture)
+  .setInteractivity(true);
+  .setTexture('down', downTexture)
+  .setTexture('over', overTexture)
+  .setTexture('off', overTexture)
+  .on('pointerdown', doSomeOnDown)
+  .on('pointerup', doSomeOnUp)
+  .on('pointerover', doSomeOnOver)
+  .on('pointerout', doSomeOnOut)
+```
